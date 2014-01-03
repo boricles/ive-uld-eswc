@@ -1,0 +1,105 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.3 for LaTeX2e
+%
+\documentclass{llncs}
+%
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{subscript}
+\lstset{breaklines=true, basicstyle=\scriptsize\ttfamily}
+
+%
+\begin{document}
+%
+\frontmatter          % for the preliminaries
+%
+\pagestyle{headings}  % switches on printing of running heads
+%\addtocmark{Hamiltonian Mechanics} % additional mark in the TOC
+%
+%
+\mainmatter              % start of the contributions
+%
+\title{Understanding Linked Data Datasets, a Summarization Based Approach}
+
+%
+\titlerunning{Understanding Linked Data Datasets, a Summarization Based Approach}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Honghan Wu\inst{1} \and Boris Villazon-Terrazas\inst{2} \and Jeff Z. Pan\inst{1}}
+%
+\authorrunning{Wu et al.}   % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+%\tocauthor{Panos Alexopoulos, Manolis Wallace}
+%
+\institute{Department of
+Computing Science, University of Aberdeen, King’s College, Aberdeen,
+AB24 3UE, UK, \\ \email{\{honghan.wu,jeff.z.pan\}@abdn.ac.uk} \and
+iSOCO, Intelligent Software Components S.A., Av. del
+Partenon, 16-18, 1-7, 28042, Madrid, Spain,\\
+\email{bvillazon@isoco.com} }
+
+
+\maketitle              % typeset the title of the contribution
+
+%**************************************************************
+%**************************************************************
+%**************************************************************
+
+
+\begin{abstract}
+
+
+\end{abstract}
+
+\section{Introduction}\label{sec:Introduction}
+\input{introduction}
+
+\section{Related Work}\label{sec:RelatedWork}
+\input{relatedwork}
+
+\section{Approach}\label{sec:Motivation}
+\input{core}
+
+\section{Evaluation}\label{sec:Evaluation}
+\input{evaluation}
+
+
+\section{Conclusions and Future Work}\label{sec:Conclusions}
+\input{conclusions}
+
+%*****************************************************************************************************************
+
+
+
+\section*{Acknowledgments}
+
+This work was supported by K-Drive (http://www.kdrive-project.eu/).
+%and PARLANCE (www.parlanceproject.eu, grant number 287615).
+
+
+
+% ---- Bibliography ----
+%
+
+\bibliography{bibliography}
+\bibliographystyle{plain}
+
+
+
+\clearpage
+\addtocmark[2]{Author Index} % additional numbered TOC entry
+\renewcommand{\indexname}{Author Index}
+\printindex \clearpage
+\addtocmark[2]{Subject Index} % additional numbered TOC entry
+\markboth{Subject Index}{Subject Index}
+\renewcommand{\indexname}{Subject Index}
+%\input{subjidx.ind}
+\end{document}
