@@ -1,50 +1,6 @@
-Lately there is an increasing variety of Linked Data datasets coming from different data sources. However, these datasets are of varying quality ranging from extensively curated datasets to crowd-sourced or extracted data to often relatively low quality. This lack of data quality poses problems to developers aiming to seamlessly consume and integrate Linked Data in their applications.
+So far, Linked Data principles and practices are being adopted by an increasing number of data providers, getting as result a global data space on the Web containing hundreds of LOD datasets \cite{Heath_Bizer_2011}. In this context it is important to promote the reuse and linkage of datasets, and to this end, it is necessary to know the structure of datasets. One step forward for knowing in depth the structure of a given dataset is to provide a summary of the dataset.
 
-There are some 
-In \cite{} authors group the linked data quality features into six main dimensions (1) conextual dimensions, (2) trust dimensions, (3) intrinsic dimensions, (4) accessibility dimensions, (5) accessibility dimensions, (6) representational dimensions, and (7) dataset dynamicity
+There are available works such as (1) \emph{LODStats}\footnote{\footnotesize \url{http://stats.lod2.eu/}} that provides the information related to a dataset, and (2) \emph{make-void} \footnote{\footnotesize \url{https://github.com/cygri/make-void}} that computes statistics about RDF files. However, LODStats is thought for the whole set of LOD datasets registered in The Data Hub \footnote{\footnotesize \url{http://thedatahub.com}}, and it is based on declarative descriptions of those datasets; and \emph{make-void} is thought for RDF files but not for RDF datasets.
 
-
-Verifiability.- Verifiability refers to the degree by which a data consumer can access the correctness of a dataset and as consequence its trustworthiness
-
-
-however, data in the LOD cloud has not been necessarily curated, and tools are required to detect possible ambiguities and quality problems ... 
-
-Linked Data has a number of challenges 
-
-
-
-There are many research works that try to define a set of key points for data quality \cite{}. 
-
-
-One important aspect of the Linked Data community is to measure the quality of a datasets. In spite \emph{quality} is a subjective factor, we can list some key points regarding the quality of the dataset \cite{}, namely
-
-\begin{itemize}
-	\item Accuracy - are facts actually correct?
-	\item Intelligibility - are there human readable labels on things?
-	\item Referential correspondence - are resources identified consistently without duplication?
-	\item Completeness - do you have all the data you expect?
-	\item Boundedness - do you have just the data you expect or is it polluted with irrelevant data?
-	\item Typing - are nodes properly typed as resources or just string literals?
-	\item Modeling correctness - is the logical structure of the data correct?
-	\item Modeling granularity - does the modeling capture enough information to be useful?
-	\item Connectedness - do combined datasets join at the right points?
-	\item Isomorphism - are combined datasets modeled in a compatible way?
-	\item Currency - is it up to date?
-	\item Directionality - is it consistent in the direction of relations?
-	\item Attribution - can you tell where portions of the data came from?
-	\item History - can you tell who edited the data and when?
-	\item Internal consistency - does the data contradict itself?
-	\item Licensed - is the license for use clear?
-	\item Sustainable - is there a credible basis for believing the data will be maintained?
-	\item Authoritative- is the provider of the data a credible authority on the subject?
-\end{itemize}
-
-Linked Data quality measures might include:
-\begin{itemize}
-	\item incoming and outgoing links
-	\item used vocabularies, and properties
-	\item adherence to property range restrictions, their values, etc.
-\end{itemize}
-
-However, the first step to get qualiaty of the data is get the snapshot, a summary, of the linked data dataset
+In this paper we present fancy-name\footnote{\footnotesize \url{http://homepages.abdn.ac.uk/honghan.wu/pages/summ/}}, a simple tool to help users get a quick understanding of RDF dataset ...
 
