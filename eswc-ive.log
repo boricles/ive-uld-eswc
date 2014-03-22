@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.10)  22 MAR 2014 17:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.10)  22 MAR 2014 18:51
 entering extended mode
 **C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/eswc-ive.tex
 (C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/eswc-ive.tex
@@ -337,57 +337,51 @@ LaTeX Font Info:    ... okay on input line 19.
 \everyMPtoPDFconversion=\toks29
 )
 \c@lstlisting=\count148
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 49.
 
-LaTeX Font Info:    No file OMScmtt.fd. on input line 51.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 49.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 51.
+(Font)              for symbol `textbraceleft' on input line 49.
 
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\introduction.tex) [1
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\introduction.tex)
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\relatedwork.tex) [1
 
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\relatedwork.tex)
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\core.tex
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\tbox-usage.tex [2] [3]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-))
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\tbox-usage.tex [2]))
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\schema-learning.tex
-<figures/ui_general_annotated.png, id=26, 770.88pt x 377.91188pt>
+<figures/ui_general_annotated.png, id=22, 770.88pt x 377.91188pt>
 File: figures/ui_general_annotated.png Graphic file (type png)
 
 <use figures/ui_general_annotated.png>
-Package pdftex.def Info: figures/ui_general_annotated.png used on input line 3.
+Package pdftex.def Info: figures/ui_general_annotated.png used on input line 4.
 
-(pdftex.def)             Requested size: 231.26578pt x 113.37444pt.
- [4 <C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/figures/ui_general_annot
-ated.png>]
-<figures/node.png, id=33, 514.17094pt x 347.79938pt>
+(pdftex.def)             Requested size: 118.89249pt x 69.32155pt.
+
+<figures/node.png, id=24, 514.17094pt x 347.79938pt>
 File: figures/node.png Graphic file (type png)
  <use figures/node.png>
-Package pdftex.def Info: figures/node.png used on input line 14.
-(pdftex.def)             Requested size: 257.08484pt x 173.89926pt.
+Package pdftex.def Info: figures/node.png used on input line 8.
+(pdftex.def)             Requested size: 154.25247pt x 104.3406pt.
 
-Underfull \vbox (badness 2426) has occurred while \output is active []
-
- [5 <C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/figures/node.png>])
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\conclusions.tex)
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\eswc-ive.bbl [6]) [7]
+[3] [4 <C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/figures/ui_general_an
+notated.png> <C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/figures/node.pn
+g>]) (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\conclusions.tex)
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\eswc-ive.bbl) [5]
 No file eswc-ive.ind.
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\eswc-ive.aux)
 
@@ -401,7 +395,7 @@ Here is how much of TeX's memory you used:
  7045 multiletter control sequences out of 15000+200000
  11823 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,15n,32p,1299b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,15n,32p,1297b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/P
@@ -419,9 +413,9 @@ fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmtt9.pfb>
-Output written on eswc-ive.pdf (7 pages, 460355 bytes).
+Output written on eswc-ive.pdf (5 pages, 453335 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
