@@ -6,4 +6,10 @@ Tom Heath and Christian Bizer.
 \newblock {\em Synthesis Lectures on the Semantic Web Theory and Technology},
   1(1):1--136, 2011.
 
+\bibitem{pan2013query}
+Jeff~Z Pan, Yuan Ren, Honghan Wu, and Man Zhu.
+\newblock Query generation for semantic datasets.
+\newblock In {\em Proceedings of the seventh international conference on
+  Knowledge capture}, pages 113--116. ACM, 2013.
+
 \end{thebibliography}
