@@ -6,10 +6,23 @@ Tom Heath and Christian Bizer.
 \newblock {\em Synthesis Lectures on the Semantic Web Theory and Technology},
   1(1):1--136, 2011.
 
+\bibitem{LiM10}
+Ning Li and Enrico Motta.
+\newblock {Evaluations of User-Driven Ontology Summarization.}
+\newblock In Philipp Cimiano and Helena~Sofia Pinto, editors, {\em EKAW},
+  volume 6317 of {\em Lecture Notes in Computer Science}, pages 544--553.
+  Springer, 2010.
+
 \bibitem{pan2013query}
 Jeff~Z Pan, Yuan Ren, Honghan Wu, and Man Zhu.
 \newblock Query generation for semantic datasets.
 \newblock In {\em Proceedings of the seventh international conference on
   Knowledge capture}, pages 113--116. ACM, 2013.
+
+\bibitem{ZhangCQ07}
+Xiang Zhang, Gong Cheng, and Yuzhong Qu.
+\newblock {Ontology summarization based on rdf sentence graph.}
+\newblock In Carey~L. Williamson, Mary~Ellen Zurko, Peter~F. Patel-Schneider,
+  and Prashant~J. Shenoy, editors, {\em WWW}, pages 707--716. ACM, 2007.
 
 \end{thebibliography}
