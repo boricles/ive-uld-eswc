@@ -1,10 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{Heath_Bizer_2011}
-Tom Heath and Christian Bizer.
-\newblock Linked data: Evolving the web into a global data space.
-\newblock {\em Synthesis Lectures on the Semantic Web Theory and Technology},
-  1(1):1--136, 2011.
+\bibitem{bizer2009linked}
+Christian Bizer, Tom Heath, and Tim Berners-Lee.
+\newblock Linked data-the story so far.
+\newblock {\em International journal on semantic web and information systems},
+  5(3):1--22, 2009.
 
 \bibitem{LiM10}
 Ning Li and Enrico Motta.

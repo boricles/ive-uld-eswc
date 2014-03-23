@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.10)  23 MAR 2014 21:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.10)  23 MAR 2014 23:13
 entering extended mode
 **C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/eswc-ive.tex
 (C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/eswc-ive.tex
@@ -337,34 +337,25 @@ LaTeX Font Info:    ... okay on input line 19.
 \everyMPtoPDFconversion=\toks29
 )
 \c@lstlisting=\count148
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 49.
-
-LaTeX Font Info:    No file OMScmtt.fd. on input line 49.
-
-
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 49.
-
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\introduction.tex)
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\relatedwork.tex)
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\core.tex [1
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\relatedwork.tex [1
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\core.tex
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\tbox-usage.tex [2]))
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\schema-learning.tex
-<figures/ui_general_annotated.png, id=26, 602.25pt x 295.1025pt>
+<figures/ui_general_annotated.png, id=24, 602.25pt x 295.1025pt>
 File: figures/ui_general_annotated.png Graphic file (type png)
 
 <use figures/ui_general_annotated.png>
@@ -372,7 +363,7 @@ Package pdftex.def Info: figures/ui_general_annotated.png used on input line 4.
 
 (pdftex.def)             Requested size: 127.75386pt x 79.14195pt.
 
-<figures/node.png, id=28, 514.17094pt x 347.79938pt>
+<figures/node.png, id=26, 514.17094pt x 347.79938pt>
 File: figures/node.png Graphic file (type png)
  <use figures/node.png>
 Package pdftex.def Info: figures/node.png used on input line 8.
@@ -383,42 +374,37 @@ notated.png> <C:/Users/honghan.wu/Documents/GitHub/ive-uld-eswc/figures/node.pn
 g>]) (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\conclusions.tex)
 (C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\eswc-ive.bbl) [5]
 No file eswc-ive.ind.
-(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\eswc-ive.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+(C:\Users\honghan.wu\Documents\GitHub\ive-uld-eswc\eswc-ive.aux) ) 
 Here is how much of TeX's memory you used:
- 3821 strings out of 493921
- 51149 string characters out of 3144860
- 117301 words of memory out of 3000000
- 7047 multiletter control sequences out of 15000+200000
- 11823 words of font info for 45 fonts, out of 3000000 for 9000
+ 3811 strings out of 493921
+ 51037 string characters out of 3144860
+ 116293 words of memory out of 3000000
+ 7040 multiletter control sequences out of 15000+200000
+ 11656 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,15n,32p,1314b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmtt9.pfb>
-Output written on eswc-ive.pdf (5 pages, 414239 bytes).
+ 29i,15n,32p,1312b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmti9.pfb>
+Output written on eswc-ive.pdf (5 pages, 397662 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
