@@ -6,6 +6,12 @@ Christian Bizer, Tom Heath, and Tim Berners-Lee.
 \newblock {\em International journal on semantic web and information systems},
   5(3):1--22, 2009.
 
+\bibitem{fokoue2006summary}
+Achille Fokoue, Aaron Kershenbaum, Li~Ma, Edith Schonberg, and Kavitha
+  Srinivas.
+\newblock The summary abox: Cutting ontologies down to size.
+\newblock In {\em The Semantic Web-ISWC 2006}, pages 343--356. Springer, 2006.
+
 \bibitem{LiM10}
 Ning Li and Enrico Motta.
 \newblock {Evaluations of User-Driven Ontology Summarization.}

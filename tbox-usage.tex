@@ -1,61 +1,10 @@
 \vspace{-2mm}
-Given an RDF graph, the summarisation is to generate a condensed description which can facilitate data exploitations. The main novelty of our summarisation approach is that it summarises an RDF graph by another much smaller graph structure based on atomic graph patterns. The linking structure in such summary graph can be utilised to significantly decrease search spaces in various data exploitation tasks e.g., query generation and query answering. Furthermore, statistic results of pattern instances are precomputed and attached to the summary, which can help both better understanding about the dataset and more efficient exploitation operations on it. 
+Given an RDF graph, the summarisation task is to generate a condensed description which can facilitate data exploitations. Different from existing ontology summarisation work, we put special emphasises on identifying a special type of basic graph patterns in RDF data, which is suitable for data exploitation.  The assumption of this special focus is that there exist such building blocks for revealing the constitution of an RDF dataset in a way which can not only help the understanding of the data but also is capable to guide RDF data exploitation. The rationale behind the assumption is that RDF data exploitation are usually based on graph patterns, e.g., SPARQL queries are based on BGP: basic  graph patterns.
 
-In an RDF graph, we call its non-literal nodes as entities. For an entity $e$ in an RDF graph $G$, we can get a data block for it by extracting triples in $G$ each of which has $e$ as its subject or object. We call such kind of data blocks as Entity Description Blocks (EDBs for short). 
+%The main novelty of our summarisation approach is that it summarises an RDF graph by another much smaller graph structure based on atomic graph patterns. The linking structure in such summary graph can be utilised to significantly decrease search spaces in various data exploitation tasks e.g., query generation and query answering. Furthermore, statistic results of pattern instances are precomputed and attached to the summary, which can help both better understanding about the dataset and more efficient exploitation operations on it. 
 
-\noindent \textbf{Entity Description Pattern} For an EDB, it can be summarised by a notion of entity description pattern (Definition~\ref{def:edp}). EDP, the short name for entity description pattern, is the atomic graph pattern in our summarisation model. 
+Specifically, in this paper, we propose one definition of such building blocks, i.e., \emph{Entity Description Patterns} (EDPs for short). Given a resource $r$ in an RDF graph $G$, the description pattern of $r$ is $EDP(r, G)=\{C, A, P, R\}$, in which $C$ is the set of its classes, $A$ is a set of its data valued properties, $P$ is a set of its object properties, and $R$ is a set of $r$\rq{}s inverse properties.
 
-\begin{definition}
-\label{def:edp} 
-(Entity Description Pattern) Given an entity description block $B_e$, its description pattern is a tuple $P_e=(C_e,A_e,R_e,V_e)$, where
-\begin{itemize}
-\item $C_e=\{c_i |<e, rdf:type,c_i> \in G\}$   is called as the class component; 
-\item $A_e=\{p_i |<e,p_i,l_i> \in G \text{ and $l_i$  is a literal}\}$  is called as the attribute component;
-\item $R_e=\{r_i |<e,r_i,o_i> \in G \text{ and $o_i$  is a URI resource or blank node}\}$  is called as the relation component;
-\item $V_e=\{v_i |<s_i,v_i,e> \in G\}$ is called as the reverse relation component.
-\end{itemize}
-\end{definition}
+While EDP is a way to summarise the descriptions of resources, the relations between resources can be characterised by connections between EDPs. Two EDP $E$ and $F$ is said to be linked by $p$ if and only if there exits $<r_e, p, r_f> \in G$ where $EDP(r_e, G)=E$ and $EDP(r_f, G)=F$.
 
-Given the $EDB$ notion, an RDF graph $G$ can be represented by a set of $EDB$ i.e., $G=\cup_{e \in G}{B_e}$. By summarising all entity description blocks in $G$, we can get the intermediate summarisation result of $G$ i.e. $\cup_{e \in G}{P_e}$ . Given this intermediate result, we define a merge operation on EDPs which can further condense the result (c.f. Definition~\ref{edp:merge}).
-\vspace{-1ex}
-\begin{definition} 
-\label{edp:merge}
-(EDP Merge)  Given a set of EDPs $\mathcal{P}$, let $\mathcal{C}$ be the set of all class components in $\mathcal{P}$ and let $G_{\mathcal{P}}(c_i)$ be a subset of $\mathcal{P}$ whose elements share the same class components $c_i$. Then, \emph{merge} function can be defined as follows:
-\scriptsize
-\begin{equation}
-Merge(\mathcal{P})=\{(c_i, \bigcup_{P_i \in G_{\mathcal{P}(c_i)}}{Attr(P_i)}, \bigcup_{P_i \in G_{\mathcal{P}(c_i)}}{Rel(P_i)}, \bigcup_{P_i \in G_{\mathcal{P}(c_i)}}{Rev(P_i)}) | c_i \in \mathcal{C} \}
-\end{equation}
-\normalsize
-where
-\begin{itemize}
-\item $Attr(P_i)$ denotes the attribute component of $P_i$;
-\item $Rel(P_i)$ denotes the relation component of $P_i$;
-\item $Rev(P_i)$ denotes the reverse relation component of $P_i$.
-\end{itemize}
-\end{definition}
-
-The rationale behind this merge operation is that entities of the same type(s) might be viewed as a set of homogeneous things. Given this idea, we can define an EDP function of an RDF graph as Definition~\ref{edp:func}.
-\vspace{-1ex}
-\begin{definition} 
-\label{edp:func}
-(EDP of RDF Graph) Given an RDF graph $G$, its EDP function is defined by the following equation.
-\begin{equation}
-EDP(G)=Merge(\bigcup_{e \in G}{P_e})
-\end{equation}
-\end{definition}
-
-\noindent \textbf{EDP Graph} EDP function of an RDF graph results with a set of atomic graph patterns. Most data exploitation tasks can be decomposed into finding more complex graph patterns which are composed by these EDPs. To this end, it would be more beneficial to know how EDPs are connected to each other in the original RDF graph. Such information can be useful not only in decreasing search spaces (e.g., in query generation) but also for guiding the exploitation (e.g., browsing or linkage). With regards to this consideration, we introduce \emph{RDF data summarisation} as the notion of EDP graph (cf. Definition~\ref{edp:edpgraph}) for characterising the linking structures in the original RDF graph.
-\vspace{-1ex}
-\begin{definition} 
-\label{edp:edpgraph} (EDP Graph) Given an RDF graph $G$, its EDP graph is defined as follows
-\begin{equation}
-\begin{split}
-\mathcal{G}_{EDP}(G)= & 
-\{<P_i,l,P_j>|\exists e_i \in E(P_i ), \exists e_j \in E(P_j ),<e_i,l,e_j> \in G, \\ 
-& P_i \in EDP(G),P_j \in EDP(G) \}
-\end{split}
-\end{equation}
-where $E(P_i)$ denotes the instances of EDP $P_i$. Specifically, if $P_i$ is not merged EDP, $E(P_i)$ is the set of entities whose EDP is $P_i$; if $P_i$  is a merged one, $E(P_i )=\cup_{P_k \in P}{E(P_k)}$, where $P$ is the set of EDPs from which $P_i$  is merged.
-\end{definition}
-
-\noindent \textbf{Annotated EDP Graph} EDP graphs are further annotated with statistic results. For each node $e$, it is annotated with a number which is the number of solutions to $Q(x) \leftarrow C_e(x)$. For each edge $l(C_e, C_f)$, there is a tuple of $(n_1, n_2)$, whose elements are the numbers of solutions to $Q_1(x) \leftarrow C_e(x), l(x,y), C_f(y)$ and $Q_2(y) \leftarrow C_e(x), l(x,y), C_f(y)$ respectively.
+Furthermore the statistics of EDP and their relations are useful information for guiding the data exploitation, e.g., the most cited papers can be interesting entities to the user. Hence, we provide statistical analysis result on EDPs and their relations. For each EDP $E$, it is annotated with a number which is the number of solutions to $Q(x) \leftarrow C_E(x)$. For each EDP relation $p(C_E, C_F)$, there is a tuple of $(n_1, n_2)$, whose elements are the numbers of solutions to $Q_1(x) \leftarrow C_E(x), p(x,y), C_F(y)$ and $Q_2(y) \leftarrow C_E(x), p(x,y), C_F(y)$ respectively.
